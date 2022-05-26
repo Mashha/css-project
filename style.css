@@ -71,6 +71,7 @@ li a {
 
 a:hover {
   color: var(--secondary-color);
+  transition: color 0.3s ease-in;
 }
 
 .left h1 {
@@ -102,6 +103,7 @@ button {
 button:hover {
   color: var(--primary-color);
   background-color: var(--main-text-color);
+  transition: background-color 0.3s ease-in;
 }
 
 .top {
@@ -128,7 +130,7 @@ button:hover {
   color: var(--quote-bg);
 }
 
-.info h1 {
+#info h1 {
   text-align: center;
   margin-top: 30px;
   font-size: 36px;
@@ -138,7 +140,7 @@ button:hover {
 
 .container {
   width: 60%;
-  margin: 60px auto;
+  margin: 70px auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -155,7 +157,7 @@ button:hover {
   border-radius: 20px;
 }
 
-.quote {
+#quote {
   background-color: var(--quote-bg);
   color: var(--quote-color);
   font-size: 36px;
@@ -167,7 +169,7 @@ button:hover {
 .inner-quote {
   width: 50%;
   margin: auto;
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 blockquote {
@@ -182,11 +184,11 @@ cite {
   justify-content: flex-end;
 }
 
-.action {
+#action {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 70px 0;
+  margin: 80px 0;
 }
 
 .action-inner {
@@ -301,7 +303,7 @@ footer {
     margin-bottom: 15px;
   }
 
-  .quote {
+  #quote {
     font-size: 25px;
   }
 
