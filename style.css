@@ -232,7 +232,7 @@ footer {
   width: 25px;
   height: 3px;
   background-color: var(--secondary-color);
-  margin: 3px;
+  margin: 5px;
   border-radius: 3px;
 }
 
@@ -342,4 +342,16 @@ footer {
 
 .nav-active {
   transform: translateX(0);
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -6px);
 }
